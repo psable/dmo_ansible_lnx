@@ -1,0 +1,9 @@
+- name: PLAY demo lnx
+  hosts: all
+
+  tasks:
+  
+    - name: Hello
+      ansible.builtin.debug:
+        msg: "Hello from git and AWX !!"
+
